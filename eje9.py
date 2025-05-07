@@ -1,6 +1,10 @@
-def eje9():
-    g = int(input("ingrese su fecha"))
-    
-    print("su fecha es", g//1000000,"/",g//10000-(g//1000000*100),"/", g%10000)
+def hola():
+ g = int(input("ingrese su fecha de nacimiento DDMMAA:"))
 
-eje9()
+ dia = g // 1000000
+ mes = (g // 10000) % 100
+ año = g % 10000
+
+
+ print("su fecha de nacimiento es:", dia,"/", mes,"/", año)
+hola()
